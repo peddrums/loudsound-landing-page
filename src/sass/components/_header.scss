@@ -1,0 +1,52 @@
+@import "../variables/header-variables";
+
+.header {
+  width: 100vw;
+
+  position: fixed;
+
+  top: 0;
+  left: 0;
+
+  padding: 2rem 0;
+
+  color: white;
+
+  &__wrapper {
+    width: 90%;
+    max-width: 110rem;
+    height: $height-header;
+
+    margin: auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__logo {
+    width: $height-header;
+    height: $height-header;
+  }
+
+  &__nav {
+    &-list {
+      display: flex;
+    }
+
+    &-item {
+      &:not(:first-of-type) {
+        margin-left: 2rem;
+      }
+
+      & a {
+        color: currentColor;
+        transition: color 0.2s;
+      }
+
+      & a:hover {
+        color: orange;
+      }
+    }
+  }
+}

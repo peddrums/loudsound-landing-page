@@ -1,0 +1,15 @@
+.hero {
+  width: 100vw;
+  height: 100vh;
+
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.2)
+    ),
+    url(/src/img/IMG_0846.JPG);
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
