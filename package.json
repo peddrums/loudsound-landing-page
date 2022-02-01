@@ -1,0 +1,14 @@
+{
+  "name": "loudsound-landing-page",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "sass --watch src/sass/main.scss styles/styles.css"
+  },
+  "author": "Pietro Mineo",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.49.4"
+  }
+}
